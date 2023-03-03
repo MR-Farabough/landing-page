@@ -1,13 +1,23 @@
+html, body{
+    padding: 0;
+    margin: 0;
+  }
+  html{
+    height: 100%;
+  }
+  body{
+    min-height: 100%;
+  }
+  
 body {
-    display: flex;
-    flex: auto;
-    flex-direction: column;
-    justify-content: space-between;
     background-color: rgb(0, 0, 57);
     margin-left: 150px;
     margin-right: 150px;
     color: white;
-    min-width: 800px
+    min-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .header {
@@ -24,6 +34,7 @@ body {
 
 .top {
     display: flex;
+    margin-bottom: 80px;
 }
 
 .top-links a {
@@ -49,4 +60,15 @@ body {
     width: 100%;
     height: auto;
     max-height: 200px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
 }
