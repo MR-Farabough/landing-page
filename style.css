@@ -43,11 +43,9 @@ body {
     justify-content: center;
     align-items: center;
     flex: 2 1 0;
-    border: 2px solid green;
 }
 
 .top-right-img {
-    border: 2px solid white;
     width: 100%;
     height: auto;
     max-height: 200px;
