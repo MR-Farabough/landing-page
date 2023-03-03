@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 57);
+    margin-left: 150px;
+    margin-right: 150px;
+    color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 57);
+    color: white;
+}
+
+.top {
+    display: flex;
+}
+
+.top-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-right {
+    display: flex;
+    flex-direction: column;
+}
