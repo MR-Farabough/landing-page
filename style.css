@@ -116,13 +116,17 @@ body {
 .bottom-mid {
     padding: 30px;
     display: flex;
-    /* flex-wrap: wrap; */
+    text-align: right;
     justify-content: space-between;
     background-color: rgb(161, 161, 161);
 }
 
-.signiture {
+.signature {
+    display: flex;
     color: lightgreen;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+    height: 50px;
     margin-left: 10px;
     margin-top: 25px;
 }
@@ -158,6 +162,7 @@ button {
 
 .text {
     text-align: center;
+    color: white;
     margin-left: 25px;
 }
 
