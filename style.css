@@ -34,7 +34,7 @@ body {
 
 .top {
     display: flex;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
 
 .top-links a {
@@ -66,7 +66,7 @@ body {
 .content {
     display: flex;
     flex-direction: column;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
 
 .footer {
@@ -75,11 +75,35 @@ body {
 }
 
 .top-mid {
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: white;
     color: black;
     border-radius: 5px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px
+}
+
+.top-mid img {
+    border: 2px solid rgb(0, 0, 57);
+    border-radius: 5px;
+}
+
+.mid-imgs {
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.mid-img {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100%;
+    max-width: 150px;
 }
 
 .top-mid h3 {
@@ -90,13 +114,60 @@ body {
 }
 
 .bottom-mid {
+    padding: 30px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
     background-color: rgb(161, 161, 161);
 }
 
+.signiture {
+    color: lightgreen;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
 .bottom {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
     background-color: white;
     color: black;
     border-radius: 5px;
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
+}
+
+button {
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(0, 105, 175);
+    color: white;
+    border-radius: 5px;
+    border-color: lightgreen;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 105, 175);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.text {
+    text-align: center;
+    margin-left: 25px;
+}
+
+.bottom button {
+    font-size: 20px;
+    color: lightgreen;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 80px;
+    margin-right: 10px;
 }
